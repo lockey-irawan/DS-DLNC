@@ -6,10 +6,10 @@ public class DoublyLinkedList {
         head = null; // it means empty list
     }
 
-    // func
+    // function
 
     public boolean isEmpty() {
-        return head == null ? true : false;
+        return head == null;
     }
 
     // put the new node in the last position at the list
